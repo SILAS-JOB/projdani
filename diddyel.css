@@ -1,3 +1,222 @@
 * {
     background-color: bisque;
 }
+
+#corpo {
+    width: 100px;
+    height: 225px;
+    background-color: #82AFD0;
+    top: 300px;
+    left: 700px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#cabeça {
+    width: 100px;
+    height: 100px;
+    background-color: #CD9960;
+    top: 200px;
+    left: 700px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#cabelo {
+    width: 100px;
+    height: 20px;
+    background-color: #000000;
+    top: 200px;
+    left: 700px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#olho1 {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    top: 230px;
+    left: 720px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#olho2 {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    top: 230px;
+    left: 760px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#pupila1 {
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
+    top: 237px;
+    left: 725px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#pupila2 {
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
+    top: 237px;
+    left: 770px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#pernadir {
+    width: 20px;
+    height: 100px;
+    background-color: #000000;
+    top: 525px;
+    left: 700px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#pernaesq {
+    width: 20px;
+    height: 100px;
+    background-color: #000000;
+    top: 525px;
+    left: 780px;
+    position: absolute;
+    border: 1px solid #000000; 
+}	
+
+#calça {
+    width: 100px;
+    height: 75px;
+    background-color: #000000;
+    top: 450px;
+    left: 700px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#braçodir {
+    width: 20px;
+    height: 100px;
+    background-color: #82AFD0;
+    top: 300px;
+    left: 640px;
+    position: absolute;
+    transform: rotate(90deg);
+    border: 1px solid #000000; 
+}
+
+#braçoesq {
+    width: 20px;
+    height: 100px;
+    background-color: #82AFD0;
+    top: 300px;
+    left: 840px;
+    position: absolute;
+    transform: rotate(90deg);
+    border: 1px solid #000000; 
+}
+
+#sapato1 {
+    width: 40px;
+    height: 20px;
+    background-color: #000000;
+    top: 620px;
+    left: 680px;
+    position: absolute;
+    transform: rotate(180deg);
+    border: 1px solid #000000; 
+}
+
+#sapato2 {
+    width: 40px;
+    height: 20px;
+    background-color: #000000;
+    top: 620px;
+    left: 780px;
+    position: absolute;
+    transform: rotate(180deg);
+    border: 1px solid #000000; 
+}
+
+#boca {
+    width: 50px;
+    height: 20px;
+    background-color: #760A08;
+    top: 270px;
+    left: 725px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #000000; 
+}
+
+#lingua {
+    width: 20px;
+    height: 10px;
+    background-color: #FF0000;
+    top: 280px;
+    left: 740px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #000000; 
+}
+
+#dente1 {
+    width: 5px;
+    height: 7px;
+    background-color: #FFFFFF;
+    top: 270px;
+    left: 743px;
+    position: absolute;
+    border: 1px solid #000000; 
+}
+
+#dente2 {
+    width: 5px;
+    height: 7px;
+    background-color: #FFFFFF;
+    top: 270px;
+    left: 749px;
+    position: absolute;
+    border: 1px solid #000000;
+}
+
+
+#boneco {
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+.girando {
+    animation: girar 5s linear infinite;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    color: #000000;
+    border-radius: 50%;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+
+#dancinha {
+    background-color: orange
+}
+    
