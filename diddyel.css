@@ -1,6 +1,3 @@
-* {
-    background-color: bisque;
-}
 
 #corpo {
     width: 100px;
@@ -211,12 +208,23 @@
 button {
     color: #000000;
     border-radius: 50%;
-    background-color: orange;
+    background-color: #025939;
     width: 200px;
     height: 200px;
+    border: 1px solid #000000;
+    font-size: 20px;
 }
 
 #dancinha {
-    background-color: orange
+    background-color: #025939
 }
-    
+
+#voltar {
+    position: absolute;
+    right: 100px;
+
+}
+
+#fundo {
+    background-color: #5FCDD9;
+}

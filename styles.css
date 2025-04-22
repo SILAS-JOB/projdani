@@ -3,7 +3,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+body {
+    background: #F2B077;
+}
 
 #menuList {
     list-style: none;
@@ -25,7 +27,7 @@ nav a {
     align-items: center;
     background-color: #73020C;
     padding: 20px 40px;
-    position: sticky; /* faz ela "grudar" no topo quando rola */
+    position: sticky; 
     top: 0;
     z-index: 1000;
     color: white;
@@ -95,7 +97,7 @@ footer {
 }
 
 .divulgação {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
 }
