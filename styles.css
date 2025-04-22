@@ -5,6 +5,7 @@
 
 body {
     background: #F2B077;
+    overflow-x: hidden;
 }
 
 #menuList {
@@ -26,12 +27,12 @@ nav a {
     justify-content: space-between;
     align-items: center;
     background-color: #73020C;
-    padding: 20px 40px;
+    padding: 20px 5px;
     position: sticky; 
     top: 0;
     z-index: 1000;
     color: white;
-    gap: 20px;
+    width: 100%;
 }
 
 #bobeira {
