@@ -32,6 +32,7 @@ nav a {
     z-index: 1000;
     color: white;
     gap: 20px;
+
 }
 
 #bobeira {
@@ -51,7 +52,7 @@ nav a {
 #galeria {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 #galeria img {
@@ -100,4 +101,13 @@ footer {
     width: 35px;
     height: 35px;
     cursor: pointer;
+}
+
+#refbi {
+    color: #fff
+}
+
+#easter egg {
+    background-color: #fff;
+    width: 100px;
 }

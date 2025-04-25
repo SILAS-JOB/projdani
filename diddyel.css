@@ -1,3 +1,6 @@
+* {
+    overflow: hidden;
+}
 
 #corpo {
     width: 100px;
@@ -190,6 +193,7 @@
     position: static;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .girando {
@@ -213,10 +217,11 @@ button {
     height: 200px;
     border: 1px solid #000000;
     font-size: 20px;
+    cursor: pointer
 }
 
 #dancinha {
-    background-color: #025939
+    background-color: #025939;
 }
 
 #voltar {
@@ -227,4 +232,30 @@ button {
 
 #fundo {
     background-color: #5FCDD9;
+    height: 1000px;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#grama {
+    background-color: #025912;
+    width: 300vh;
+    height: 900px;
+    z-index: -1;
+    position: absolute;
+    bottom: -500px;
+    left: -200px;
+    border-radius: 50%;
+}
+
+#sol {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 1250px;
 }
