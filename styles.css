@@ -107,7 +107,12 @@ footer {
     color: #fff
 }
 
-#easter egg {
+#easter-egg {
     background-color: #fff;
-    width: 100px;
+    width: 10px;
+    height: 10px;
+    z-index: 1000;
+    position: absolute;
+    
+    
 }
