@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    cursor: pointer
+}
+
+#joão {
+    width: 100%;
+
+}
+
+#dom {
+    width: 100%;
+    background-color: black;
+    color: white
+}
+
+#vírus {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+    cursor: grab;
+    animation: bug 1s linear infinite;
+    position: absolute;
+    
+}
+
+@keyframes bug {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
