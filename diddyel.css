@@ -1,7 +1,9 @@
-* {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
     overflow: hidden;
-}
-
+}	
 #corpo {
     width: 100px;
     height: 225px;
@@ -190,14 +192,13 @@
 
 
 #boneco {
-    position: static;
-    top: 0;
-    left: 0;
+    position: absolute;
     width: 100%;
 }
 
 .girando {
     animation: girar 5s linear infinite;
+    transform-origin: center center;
 }
 
 @keyframes girar {
@@ -254,8 +255,9 @@ button {
 
 #sol {
     background-color: yellow;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     position: absolute;
-    left: 1250px;
+    left: 1000px;
+    border-radius: 50%;
 }

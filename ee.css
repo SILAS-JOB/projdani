@@ -23,7 +23,7 @@ img {
     height: 40px;
     border: 1px solid #000;
     cursor: grab;
-    animation: bug 1s linear infinite;
+    animation: bug 3s alternate-reverse linear infinite;
     position: absolute;
     
 }
@@ -33,7 +33,7 @@ img {
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(100px);
+        transform: translateX(1400px);
     }
 }
 
